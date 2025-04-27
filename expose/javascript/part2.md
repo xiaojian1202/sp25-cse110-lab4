@@ -9,9 +9,9 @@
 9. ReferenceError: i is not defined. The error is raised because i's scope is within the for loop and not within the function.
 10. Line 12 prints 3. 3 is the length of the prices argument and its scope is within the function.
 11. The function returns the array [ 50, 00, 150 ]. Discounted's scope is within the function and when each discountedPrice is appended to the array's end.
-12. A. student.name
-12. B. student['Grad Year']
-12. C. student.greeting()
-12. D. student['Favorite Teacher'].name
-12. E. student.courseLoad[0] 
-13. 
+12. Given object's notation access:
+    1.  A. student.name
+    2.  B. student['Grad Year']
+    3.  C. student.greeting()
+    4.  D. student['Favorite Teacher'].name
+    5.  E. student.courseLoad[0] 
