@@ -31,3 +31,4 @@
     4.  false The '===' operator has no type conversions so the comparison returns false because the operands are different types.
     5.  false True becomes 1 and 1 != 2 so the comparison is false.
     6.  true Boolean(value) where value isn't "empty" becomes true. 2 isn't "empty" so it becomes true hence true===true returns true.
+15. == checks whether the operands are equal while including type conversion but === checks equality without type conversion.
