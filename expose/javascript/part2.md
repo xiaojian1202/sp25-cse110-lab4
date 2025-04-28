@@ -32,3 +32,7 @@
     5.  false True becomes 1 and 1 != 2 so the comparison is false.
     6.  true Boolean(value) where value isn't "empty" becomes true. 2 isn't "empty" so it becomes true hence true===true returns true.
 15. == checks whether the operands are equal while including type conversion but === checks equality without type conversion.
+16. part2-question16.js
+17. The result will return a new array that double the values of the array argument. the callback parameter is a function parameter and doSomething(num) is passed as the argument. doSomething(num) is then called on array as the callback() and multiplies each array[i] by 2 for every index of array.
+18. part2-question8.js
+19. The output of the code prints 1,4,3,2. The console.log() prints immediately after the line is executed from the setTimeouts have a delay based on the delay argument. 4 prints before 3 despite the 0ms delay because the code prints at the next event cycle.
