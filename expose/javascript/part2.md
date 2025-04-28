@@ -15,3 +15,19 @@
     3.  C. student.greeting()
     4.  D. student['Favorite Teacher'].name
     5.  E. student.courseLoad[0] 
+13. Arithmetic
+    1.  '32' The integer 5 is mapped to its string representation and cancatenated with '3'.
+    2.  1 Numeric comparisons convert strings to its integer representation. '3' is convert to integer 3.
+    3.  3 Null is converted to integer 0 so 3+0=3.
+    4.  '3null' null is concatenated with '3' as 'null'.
+    5.  4 True is treated as integer 1 so 1+3=4.
+    6.  0 Both false and null are mapped to 0.
+    7.  '3undefined' Undefined is converted to a string and concatenated with '3'.
+    8.  NaN '3' is converted to 3 and undefined becomes NaN so the calculation is not a valid number, thus NaN.
+14. Comparison
+    1.  true '2' becomes integer 2 and 2 > 1 is true.
+    2.  false '2' becomes 2  and '12' becomes 12. 2 < 12 is true.
+    3.  true '2' becomes 2 and both sides of == equals.
+    4.  false The '===' operator has no type conversions so the comparison returns false because the operands are different types.
+    5.  false True becomes 1 and 1 != 2 so the comparison is false.
+    6.  true Boolean(value) where value isn't "empty" becomes true. 2 isn't "empty" so it becomes true hence true===true returns true.
