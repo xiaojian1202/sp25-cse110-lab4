@@ -1,0 +1,2 @@
+1. The bug was that when input 2 numbers and calculate, the init calls on printSum which converts the two numbers to strings. Then in calculateSum() the two strings are concatenated instead of using its integer values.
+2. After retreiving the inputs, i would use built in functions like Number(). This would convert both integers and decimals instead of just integers if we used something like parseFloat().
